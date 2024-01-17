@@ -7,7 +7,7 @@ interface LayoutProps {
 
 export const Layout: FC<LayoutProps> = ({children}) => {
     return (
-        <div className="mx-12 mt-2">
+        <div className="mx-6 mt-2">
             <Header />
             <div className="">
                 {children}
